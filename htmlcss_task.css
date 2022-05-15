@@ -76,5 +76,17 @@ footer{
 
 /*768px以下では縦並びになるようにする*/
 /*メディアクエリの設定*/
-
+@media screen and (max-width:768px){
+  
+  
+  main{
+    display: block;
+    width:100%;
+  }
+  
+  .step-box{
+    width:100%;
+  }
+  
+}
 
